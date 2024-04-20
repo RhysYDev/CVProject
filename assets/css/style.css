@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Archivo", sans-serif;
+}
+
+.bg-color-name-title {
+    background-color: antiquewhite;
+}
+
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url(../images/bebefacesmile.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
