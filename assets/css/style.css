@@ -69,6 +69,14 @@ h4 {
     margin-bottom: 40px;
 }
 
+/* hr {
+    width: 30%;
+    margin: 20px auto;
+    background-color: #0b1829;
+    border-color: #0b1829;
+    color: #0b1829;
+} */
+
 /*--------------------------------------------------------- heading */
 header {
     margin: 0;
@@ -207,4 +215,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*--------------------------------------------------------- Three reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: rgb(77 128 165);
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
