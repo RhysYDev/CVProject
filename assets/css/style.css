@@ -6,7 +6,23 @@ body {
 
 /*--------------------------------------------------------- colors */
 .bg-color-name-title {
-    background-color: antiquewhite;
+    background-color: #0b1829;
+}
+
+.ui-menu-color-home {
+    background-color: rgb(77 128 165);
+}
+
+.ui-menu-color-resume {
+    background-color: #c54d63;
+}
+
+.ui-menu-color-contact {
+    background-color: #614a77;
+}
+
+.ui-menu-color-download {
+    background-color: rgb(221 216 58);
 }
 
 /*--------------------------------------------------------- heading */
@@ -42,4 +58,21 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #557fbd;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
 }
