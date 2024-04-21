@@ -25,6 +25,25 @@ body {
     background-color: rgb(221 216 58);
 }
 
+/*--------------------------------------------------------- special paddings/ margins/ text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase  {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-weight: 400;
+    color:#0b1829;
+    letter-spacing: 2px;
+}
+
 /*--------------------------------------------------------- heading */
 header {
     margin: 0;
@@ -59,6 +78,7 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #557fbd;
+    letter-spacing: 2px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -78,9 +98,7 @@ header {
     padding: 0;
 }
 
-.hvr-buzz {
-    
-}
+.hvr-buzz {}
 
 .menuitem {
     height: 120px;
@@ -113,6 +131,15 @@ header {
     letter-spacing: 2px;
 }
 
-/* #contactbuzz {
-    display: block;
-} */
+/*--------------------------------------------------------- hover.css */
+
+
+/*--------------------------------------------------------- footer */
+
+footer {
+    background-color: #4a70a3;
+    color:#0b1829;
+    min-height: 120px;
+    margin: 0;
+
+}
