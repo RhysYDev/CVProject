@@ -25,6 +25,11 @@ body {
     background-color: rgb(221 216 58);
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+
+}
+
 /*--------------------------------------------------------- special paddings/ margins/ text */
 
 h1,
@@ -46,6 +51,22 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------- heading */
@@ -182,4 +203,8 @@ footer {
 
 .social-links li a i:hover {
     filter: invert(1);
+}
+
+#footer-details {
+    padding: 20px;
 }
