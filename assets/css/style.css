@@ -30,6 +30,10 @@ body {
 
 }
 
+.bg-color-personal-info {
+    background-color: beige;
+}
+
 /*--------------------------------------------------------- special paddings/ margins/ text */
 
 h1,
